@@ -1,0 +1,94 @@
+Sender: LSF System <lsfadmin@node12>
+Subject: Job 1744: <BERT_LIME> in cluster <auzorrocluster> Exited
+
+Job <BERT_LIME> was submitted from host <zorro> by user <cm0246b> in cluster <auzorrocluster> at Wed Oct 21 17:33:03 2020
+Job was executed on host(s) <node12>, in queue <normal>, as user <cm0246b> in cluster <auzorrocluster> at Wed Oct 21 17:33:03 2020
+</home/cm0246b> was used as the home directory.
+</home/cm0246b/COVIDTweets/28October2020> was used as the working directory.
+Started at Wed Oct 21 17:33:03 2020
+Terminated at Wed Oct 21 17:33:08 2020
+Results reported at Wed Oct 21 17:33:08 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J BERT_LIME
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+/home/cm0246b/PythonMod/virt/bin/python3.6 BERT_LIME_integration.py
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   3.79 sec.
+    Max Memory :                                 14 MB
+    Average Memory :                             9.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                28
+    Run time :                                   4 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <myerror.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@node10>
+Subject: Job 1745: <BERT_LIME> in cluster <auzorrocluster> Done
+
+Job <BERT_LIME> was submitted from host <zorro> by user <cm0246b> in cluster <auzorrocluster> at Wed Oct 21 17:40:05 2020
+Job was executed on host(s) <node10>, in queue <normal>, as user <cm0246b> in cluster <auzorrocluster> at Wed Oct 21 17:40:05 2020
+</home/cm0246b> was used as the home directory.
+</home/cm0246b/COVIDTweets/28October2020> was used as the working directory.
+Started at Wed Oct 21 17:40:05 2020
+Terminated at Thu Oct 22 11:42:41 2020
+Results reported at Thu Oct 22 11:42:41 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J BERT_LIME
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+/home/cm0246b/PythonMod/virt/bin/python3.6 BERT_LIME_integration.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1246877.00 sec.
+    Max Memory :                                 9465 MB
+    Average Memory :                             5670.52 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                80
+    Run time :                                   64955 sec.
+    Turnaround time :                            64956 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <myerror.txt> for stderr output of this job.
+
