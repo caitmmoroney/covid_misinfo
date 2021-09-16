@@ -1,0 +1,335 @@
+Sender: LSF System <lsfadmin@node15>
+Subject: Job 4206: <A_LIME_redo> in cluster <auzorrocluster> Done
+
+Job <A_LIME_redo> was submitted from host <zorro> by user <cm0246b> in cluster <auzorrocluster> at Sun Jan 24 20:51:09 2021
+Job was executed on host(s) <node15>, in queue <normal>, as user <cm0246b> in cluster <auzorrocluster> at Sun Jan 24 20:51:10 2021
+</home/cm0246b> was used as the home directory.
+</home/cm0246b/COVIDTweets/24Jan2021/rerun_A> was used as the working directory.
+Started at Sun Jan 24 20:51:10 2021
+Terminated at Mon Jan 25 19:04:17 2021
+Results reported at Mon Jan 25 19:04:17 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J A_LIME_redo
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+/home/cm0246b/PythonMod/virt/bin/python3.6 A_LIME_integration.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39460.92 sec.
+    Max Memory :                                 380 MB
+    Average Memory :                             338.65 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                51
+    Run time :                                   79984 sec.
+    Turnaround time :                            79988 sec.
+
+The output (if any) follows:
+
+loaded imports
+loaded data file
+instantiated embedder class
+fitted embedder to tweets
+loaded numpy A embeddings
+loaded pretrained model
+made class predictions
+completed tweet 2
+completed tweet 4
+completed tweet 6
+completed tweet 8
+completed tweet 10
+completed tweet 12
+completed tweet 14
+completed tweet 16
+completed tweet 18
+completed tweet 20
+completed tweet 22
+completed tweet 24
+completed tweet 26
+completed tweet 28
+completed tweet 30
+completed tweet 32
+completed tweet 34
+completed tweet 36
+completed tweet 38
+completed tweet 40
+completed tweet 42
+completed tweet 44
+completed tweet 46
+completed tweet 48
+completed tweet 50
+completed tweet 52
+completed tweet 54
+completed tweet 56
+completed tweet 58
+completed tweet 60
+completed tweet 62
+completed tweet 64
+completed tweet 66
+completed tweet 68
+completed tweet 70
+completed tweet 72
+completed tweet 74
+completed tweet 76
+completed tweet 78
+completed tweet 80
+completed tweet 82
+completed tweet 84
+completed tweet 86
+completed tweet 88
+completed tweet 90
+completed tweet 92
+completed tweet 94
+completed tweet 96
+completed tweet 98
+completed tweet 100
+completed tweet 102
+completed tweet 104
+completed tweet 106
+completed tweet 108
+completed tweet 110
+completed tweet 112
+completed tweet 114
+completed tweet 116
+completed tweet 118
+completed tweet 120
+completed tweet 122
+completed tweet 124
+completed tweet 126
+completed tweet 128
+completed tweet 130
+completed tweet 132
+completed tweet 134
+completed tweet 136
+completed tweet 138
+completed tweet 140
+completed tweet 142
+completed tweet 144
+completed tweet 146
+completed tweet 148
+completed tweet 150
+completed tweet 152
+completed tweet 154
+completed tweet 156
+completed tweet 158
+completed tweet 160
+completed tweet 162
+completed tweet 164
+completed tweet 166
+completed tweet 168
+completed tweet 170
+completed tweet 172
+completed tweet 174
+completed tweet 176
+completed tweet 178
+completed tweet 180
+completed tweet 182
+completed tweet 184
+completed tweet 186
+completed tweet 188
+completed tweet 190
+completed tweet 192
+completed tweet 194
+completed tweet 196
+completed tweet 198
+completed tweet 200
+completed tweet 202
+completed tweet 204
+completed tweet 206
+completed tweet 208
+completed tweet 210
+completed tweet 212
+completed tweet 214
+completed tweet 216
+completed tweet 218
+completed tweet 220
+completed tweet 222
+completed tweet 224
+completed tweet 226
+completed tweet 228
+completed tweet 230
+completed tweet 232
+completed tweet 234
+completed tweet 236
+completed tweet 238
+completed tweet 240
+completed tweet 242
+completed tweet 244
+completed tweet 246
+completed tweet 248
+completed tweet 250
+completed tweet 252
+completed tweet 254
+completed tweet 256
+completed tweet 258
+completed tweet 260
+completed tweet 262
+completed tweet 264
+completed tweet 266
+completed tweet 268
+completed tweet 270
+completed tweet 272
+completed tweet 274
+completed tweet 276
+completed tweet 278
+completed tweet 280
+completed tweet 282
+completed tweet 284
+completed tweet 286
+completed tweet 288
+completed tweet 290
+completed tweet 292
+completed tweet 294
+completed tweet 296
+completed tweet 298
+completed tweet 300
+completed tweet 302
+completed tweet 304
+completed tweet 306
+completed tweet 308
+completed tweet 310
+completed tweet 312
+completed tweet 314
+completed tweet 316
+completed tweet 318
+completed tweet 320
+completed tweet 322
+completed tweet 324
+completed tweet 326
+completed tweet 328
+completed tweet 330
+completed tweet 332
+completed tweet 334
+completed tweet 336
+completed tweet 338
+completed tweet 340
+completed tweet 342
+completed tweet 344
+completed tweet 346
+completed tweet 348
+completed tweet 350
+completed tweet 352
+completed tweet 354
+completed tweet 356
+completed tweet 358
+completed tweet 360
+completed tweet 362
+completed tweet 364
+completed tweet 366
+completed tweet 368
+completed tweet 370
+completed tweet 372
+completed tweet 374
+completed tweet 376
+completed tweet 378
+completed tweet 380
+completed tweet 382
+completed tweet 384
+completed tweet 386
+completed tweet 388
+completed tweet 390
+completed tweet 392
+completed tweet 394
+completed tweet 396
+completed tweet 398
+completed tweet 400
+completed tweet 402
+completed tweet 404
+completed tweet 406
+completed tweet 408
+completed tweet 410
+completed tweet 412
+completed tweet 414
+completed tweet 416
+completed tweet 418
+completed tweet 420
+completed tweet 422
+completed tweet 424
+completed tweet 426
+completed tweet 428
+completed tweet 430
+completed tweet 432
+completed tweet 434
+completed tweet 436
+completed tweet 438
+completed tweet 440
+completed tweet 442
+completed tweet 444
+completed tweet 446
+completed tweet 448
+completed tweet 450
+completed tweet 452
+completed tweet 454
+completed tweet 456
+completed tweet 458
+completed tweet 460
+completed tweet 462
+completed tweet 464
+completed tweet 466
+completed tweet 468
+completed tweet 470
+completed tweet 472
+completed tweet 474
+completed tweet 476
+completed tweet 478
+completed tweet 480
+completed tweet 482
+completed tweet 484
+completed tweet 486
+completed tweet 488
+completed tweet 490
+completed tweet 492
+completed tweet 494
+completed tweet 496
+completed tweet 498
+completed tweet 500
+completed tweet 502
+completed tweet 504
+completed tweet 506
+completed tweet 508
+completed tweet 510
+completed tweet 512
+completed tweet 514
+completed tweet 516
+completed tweet 518
+completed tweet 520
+completed tweet 522
+completed tweet 524
+completed tweet 526
+completed tweet 528
+completed tweet 530
+completed tweet 532
+completed tweet 534
+completed tweet 536
+completed tweet 538
+completed tweet 540
+completed tweet 542
+completed tweet 544
+completed tweet 546
+completed tweet 548
+completed tweet 550
+completed tweet 552
+completed tweet 554
+completed tweet 556
+completed tweet 558
+completed tweet 560
+70.30512306459633
+
+
+PS:
+
+Read file <myerror.txt> for stderr output of this job.
+

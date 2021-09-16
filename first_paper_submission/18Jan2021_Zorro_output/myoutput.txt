@@ -1,0 +1,58 @@
+Sender: LSF System <lsfadmin@node10>
+Subject: Job 4050: <ICA_embeddings> in cluster <auzorrocluster> Done
+
+Job <ICA_embeddings> was submitted from host <zorro> by user <cm0246b> in cluster <auzorrocluster> at Mon Jan 18 12:58:12 2021
+Job was executed on host(s) <node10>, in queue <normal>, as user <cm0246b> in cluster <auzorrocluster> at Mon Jan 18 12:58:12 2021
+</home/cm0246b> was used as the home directory.
+</home/cm0246b/COVIDTweets/18January2021> was used as the working directory.
+Started at Mon Jan 18 12:58:12 2021
+Terminated at Mon Jan 18 14:56:37 2021
+Results reported at Mon Jan 18 14:56:37 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J ICA_embeddings
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+matlab < create_word_embeddings.m
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   154713.39 sec.
+    Max Memory :                                 1339 MB
+    Average Memory :                             1294.88 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                88
+    Run time :                                   7104 sec.
+    Turnaround time :                            7105 sec.
+
+The output (if any) follows:
+
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+
+PS:
+
+Read file <myerror.txt> for stderr output of this job.
+

@@ -1,0 +1,48 @@
+Sender: LSF System <lsfadmin@node12>
+Subject: Job 4121: <BERT_LIME> in cluster <auzorrocluster> Exited
+
+Job <BERT_LIME> was submitted from host <zorro> by user <cm0246b> in cluster <auzorrocluster> at Thu Jan 21 17:17:07 2021
+Job was executed on host(s) <node12>, in queue <normal>, as user <cm0246b> in cluster <auzorrocluster> at Thu Jan 21 17:17:08 2021
+</home/cm0246b> was used as the home directory.
+</home/cm0246b/COVIDTweets/21Jan2021> was used as the working directory.
+Started at Thu Jan 21 17:17:08 2021
+Terminated at Sat Jan 23 17:17:15 2021
+Results reported at Sat Jan 23 17:17:15 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J BERT_LIME
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+/home/cm0246b/PythonMod/virt/bin/python3.6 BERT_LIME_integration.py
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   3312987.00 sec.
+    Max Memory :                                 17753 MB
+    Average Memory :                             11903.34 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                86
+    Run time :                                   172805 sec.
+    Turnaround time :                            172808 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <myerror.txt> for stderr output of this job.
+

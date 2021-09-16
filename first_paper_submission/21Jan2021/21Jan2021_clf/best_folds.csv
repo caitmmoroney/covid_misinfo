@@ -1,0 +1,4 @@
+,embeddings,best_fold_num,test_acc
+0,A,Fold 3,0.8571428571428571
+1,S,Fold 3,0.8392857142857143
+2,BERT,Fold 4,0.8928571428571429

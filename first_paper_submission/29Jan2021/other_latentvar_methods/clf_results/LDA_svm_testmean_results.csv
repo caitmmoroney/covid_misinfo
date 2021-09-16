@@ -1,0 +1,2 @@
+,test_auc,test_accuracy,test_recall_macro,test_precision_macro,test_f1_macro
+0,0.7420319075956524,0.6625,0.6681800751818046,0.6829174120770424,0.6569797851061894

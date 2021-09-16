@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#BSUB -J BERT_LIME
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+/home/cm0246b/PythonMod/virt/bin/python3.6 BERT_LIME_integration.py

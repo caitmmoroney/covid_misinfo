@@ -1,0 +1,100 @@
+Sender: LSF System <lsfadmin@node13>
+Subject: Job 4204: <BERT_LIME> in cluster <auzorrocluster> Done
+
+Job <BERT_LIME> was submitted from host <zorro> by user <cm0246b> in cluster <auzorrocluster> at Sun Jan 24 20:37:36 2021
+Job was executed on host(s) <node13>, in queue <normal>, as user <cm0246b> in cluster <auzorrocluster> at Sun Jan 24 20:37:37 2021
+</home/cm0246b> was used as the home directory.
+</home/cm0246b/COVIDTweets/24Jan2021/finish_BERT> was used as the working directory.
+Started at Sun Jan 24 20:37:37 2021
+Terminated at Mon Jan 25 06:14:45 2021
+Results reported at Mon Jan 25 06:14:45 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J BERT_LIME
+#BSUB -q normal
+#BSUB -o myoutput.txt
+#BSUB -e myerror.txt
+/home/cm0246b/PythonMod/virt/bin/python3.6 BERT_LIME_integration.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   660658.56 sec.
+    Max Memory :                                 5356 MB
+    Average Memory :                             3528.87 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                80
+    Run time :                                   34626 sec.
+    Turnaround time :                            34629 sec.
+
+The output (if any) follows:
+
+loaded imports
+loaded data file
+fitted embedder to tweets
+loaded numpy bert embeddings
+loaded pretrained model
+made class predictions
+completed tweet 468
+completed tweet 470
+completed tweet 472
+completed tweet 474
+completed tweet 476
+completed tweet 478
+completed tweet 480
+completed tweet 482
+completed tweet 484
+completed tweet 486
+completed tweet 488
+completed tweet 490
+completed tweet 492
+completed tweet 494
+completed tweet 496
+completed tweet 498
+completed tweet 500
+completed tweet 502
+completed tweet 504
+completed tweet 506
+completed tweet 508
+completed tweet 510
+completed tweet 512
+completed tweet 514
+completed tweet 516
+completed tweet 518
+completed tweet 520
+completed tweet 522
+completed tweet 524
+completed tweet 526
+completed tweet 528
+completed tweet 530
+completed tweet 532
+completed tweet 534
+completed tweet 536
+completed tweet 538
+completed tweet 540
+completed tweet 542
+completed tweet 544
+completed tweet 546
+completed tweet 548
+completed tweet 550
+completed tweet 552
+completed tweet 554
+completed tweet 556
+completed tweet 558
+completed tweet 560
+
+
+PS:
+
+Read file <myerror.txt> for stderr output of this job.
+

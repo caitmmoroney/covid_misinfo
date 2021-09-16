@@ -1,0 +1,4 @@
+,embeddings,best_fold_num,test_acc
+0,NMF,Fold 4,0.8571428571428571
+1,LDA,Fold 5,0.7321428571428571
+2,DL,Fold 3,0.8928571428571429
